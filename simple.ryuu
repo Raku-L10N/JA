@@ -1,0 +1,25 @@
+私の $choice;
+私の $continue;
+私の @bad = <damn stupid nutcase>;
+リピート {
+    $choice = プロンプト "Type something, like a number, or a string: ";
+    言う "You typed in ｢" ~ ($choice ~~ 任意(@bad) ?? "*" × $choice.文字 !! $choice) ~ "｣";
+    与えられた $choice {
+        いつ "dragon" {
+            言う "which is 'draig' in Welsh"
+        }
+        いつ 任意(@bad) {
+            言う "wash your mouth with soap"
+        }
+        いつ IntStr {
+            言う "which evaluates to an integer ", $choice
+        }
+        いつ RatStr {
+            言う "which evaluates to a rational number ", $choice
+        }
+        デフォルト {
+            言う "which does not evaluate to a number "
+        }
+    }
+    $continue = プロンプト "Try again? If not type N: "
+} まで $continue 当量 任意(<N n>)

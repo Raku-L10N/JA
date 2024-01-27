@@ -1,16 +1,16 @@
 #!/usr/bin/env raku
-sub draig(*@_) {
+sub ryuu(*@_) {
     %*ENV<RAKUDO_RAKUAST> = 1;
-    %*ENV<RAKUDO_OPT>     = '-ML10N::CY';
+    %*ENV<RAKUDO_OPT>     = '-ML10N::JA';
     run $*EXECUTABLE, @_;
 }
 
 multi sub MAIN() {
-    draig
+    ryuu
 }
 
 multi sub MAIN(
   $filename where *.IO.f  #= source file to be run in Welsh
 ) {
-    draig $filename
+    ryuu $filename
 }

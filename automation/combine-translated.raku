@@ -7,7 +7,6 @@ sub MAIN($fn where *.IO.f = 'CY') {
     my @partials = 'partial.txt'.IO.lines;
     my @translated = 'translated.txt'.IO.lines;
     exit note 'no content in ｢translated.txt｣' unless +@translated;
-    say @translated[0].substr(0,3);
     my $start-line = @translated[0].substr(0,3) - 1 ;
     my $max-len = max(@partials[$start-line ..*]>>.chars);
     my $rv = '';
@@ -20,6 +19,7 @@ sub MAIN($fn where *.IO.f = 'CY') {
         if ?( $tline ~~ / ^ $pline / ) {
             $rv ~= $tline.substr(4).subst(/ \s | \' /, '-', :g);
             $tline = @translated.shift if +@translated;
+            exit note "Stopping as no translation for line $tline" unless $tline.chars > 4;
             # when no more translated, tline will retain last value, which will not match
         }
         $rv ~= "\n";

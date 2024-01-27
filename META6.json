@@ -13,7 +13,7 @@
   "name": "L10N::JA",
   "perl": "6.d",
   "provides": {
-    "L10N::CY": "lib/L10N/JA.rakumod",
+    "L10N::JA": "lib/L10N/JA.rakumod",
     "RakuAST::Deparse::L10N::JA": "lib/RakuAST/Deparse/L10N/JA.rakumod"
   },
   "bin": [
