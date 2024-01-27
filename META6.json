@@ -1,0 +1,33 @@
+{
+  "auth": "zef:finanalyst",
+  "authors": [
+    "Elizabeth Mattijsen",
+    "Richard Hainsworth"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Japanese localization of Raku",
+  "license": "Artistic-2.0",
+  "name": "L10N::JA",
+  "perl": "6.d",
+  "provides": {
+    "L10N::CY": "lib/L10N/JA.rakumod",
+    "RakuAST::Deparse::L10N::JA": "lib/RakuAST/Deparse/L10N/JA.rakumod"
+  },
+  "bin": [
+    "bin/Ryuu",
+    "bin/tr2Ryuu"
+  ],
+  "resources": [],
+  "source-url": "https://github.com/finanalyst/rakuast-L10N-JA.git",
+  "tags": [
+    "LOCALIZATION",
+    "JAPANESE",
+    "JA"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
