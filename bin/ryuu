@@ -1,16 +1,18 @@
 #!/usr/bin/env raku
-sub ryuu(*@_) {
-    %*ENV<RAKUDO_RAKUAST> = 1;
-    %*ENV<RAKUDO_OPT>     = '-ML10N::JA';
-    run $*EXECUTABLE, @_;
-}
 
-multi sub MAIN() {
-    ryuu
-}
+# Executor for the Japanese localization of the Raku Programming Language
 
-multi sub MAIN(
-  $filename where *.IO.f  #= source file to be run in Welsh
-) {
-    ryuu $filename
-}
+#- start of generated part of localization ------------------------------------
+#- Generated on 2025-06-24T12:16:26+02:00 by ./update-localization
+#- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
+
+%*ENV<RAKUDO_RAKUAST> = 1;
+%*ENV<RAKUDO_OPT>     = '-ML10N::JA';
+
+#- PLEASE DON'T CHANGE ANYTHING ABOVE THIS LINE
+#- end of generated part of localization --------------------------------------
+
+my $proc := run $*EXECUTABLE, @*ARGS;
+exit $proc.exitcode;
+
+# vim: expandtab shiftwidth=4

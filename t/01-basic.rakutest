@@ -1,0 +1,14 @@
+use Test;
+plan 1;
+
+my $ast := Q:to/CODE/.AST("JA");
+私の $a = 42;
+もしも $a == 42 {
+    言う "こんにちは世界"
+}
+CODE
+$ast.EVAL;
+
+pass "Compiled and ran";
+
+# vim: expandtab shiftwidth=4
