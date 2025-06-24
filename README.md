@@ -12,7 +12,7 @@ SYNOPSIS
     こんにちは世界
 
 ```raku
-use L10N::NL;
+use L10N::JA;
 言う "こんにちは世界";
 ```
 

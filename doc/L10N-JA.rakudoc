@@ -13,7 +13,7 @@ $ ryuuu -e '言う "こんにちは世界"'
 
 =begin code :lang<raku>
 
-use L10N::NL;
+use L10N::JA;
 言う "こんにちは世界";
 
 =end code
