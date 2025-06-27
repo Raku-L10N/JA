@@ -1,7 +1,7 @@
 # This file contains the Japanese Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-24T12:16:26+02:00 by ./update-localization
+#- Generated on 2025-06-27T18:38:58+02:00 by update-localization.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::JA {

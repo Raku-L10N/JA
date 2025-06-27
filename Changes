@@ -2,6 +2,9 @@ Revision history for L10N::JA
 
 {{$NEXT}}
 
+0.0.3  2025-06-27T18:39:24+02:00
+    - Updated internals to new L10N file layout
+
 0.0.2  2025-06-24T12:51:58+02:00
     - Fix copy pasto in code example
 
