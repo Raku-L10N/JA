@@ -1,6 +1,7 @@
 Revision history for L10N::JA
 
 {{$NEXT}}
+    - Fix documentation of the ryuu executable, Will Coleda++
 
 0.0.3  2025-06-27T18:39:24+02:00
     - Updated internals to new L10N file layout

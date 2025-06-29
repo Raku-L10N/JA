@@ -7,7 +7,7 @@ L10N::JA - Japanese localization of Raku
 =head1 SYNOPSIS
 
 =begin output
-$ ryuuu -e '言う "こんにちは世界"'
+$ ryuu -e '言う "こんにちは世界"'
 こんにちは世界
 =end output
 
@@ -22,13 +22,13 @@ use L10N::JA;
 
 The C<L10N::JA> distribution contains the logic to provide a Japanese
 localization of the Raku Programming Language.  It installs a
-C<ryuuu> executable that will automatically activate the Japanese
+C<ryuu> executable that will automatically activate the Japanese
 localization.  And it allows one to use the Japanese localization
 in selected programs with a C<use L10N::JA> statement.
 
 =head1 REFERENCES
 
-L<Ryuuu - a Japanese dragon|https://dev.to/finanalyst/ryuu-a-japanese-dragon-2e7m>
+L<Ryuu - a Japanese dragon|https://dev.to/finanalyst/ryuu-a-japanese-dragon-2e7m>
 
 =head1 AUTHORS
 
