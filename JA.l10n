@@ -196,6 +196,7 @@ core-indent     インデント
 core-index      インデックス
 core-indices    のインデックス
 core-indir      インディル
+#core-invert     invert
 core-is         は
 core-is-approx  はおよそ
 core-is-deeply  は深いです

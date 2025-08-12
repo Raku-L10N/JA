@@ -13,6 +13,7 @@ $ ryuu -e '言う "こんにちは世界"'
 
 =begin code :lang<raku>
 
+# Must have RAKUDO_RAKUAST=1 environment variable set
 use L10N::JA;
 言う "こんにちは世界";
 
