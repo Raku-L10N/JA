@@ -20,7 +20,7 @@
   "source-url": "https://github.com/Raku-L10N/JA.git",
   "support": {
     "bugtracker": "https://github.com/Raku-L10N/JA/issues",
-    "email": "l10n@raku,org",
+    "email": "rnhainsworth@gmail.com",
     "source": "https://github.com/Raku-L10N/JA.git"
   },
   "tags": [
@@ -30,5 +30,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
