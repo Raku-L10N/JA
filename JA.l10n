@@ -1,9 +1,6 @@
 # This file contains the Japanese "translation" of features of the
 # Raku Programming Language.
 
-# See https://github.com/Raku/L10N/tree/main/localizations#readme
-# for more information.
-
 # KEY             TRANSLATION
 adverb-pc-delete  削除
 adverb-pc-exists  は存在します
@@ -22,8 +19,8 @@ adverb-q-closure     閉店
 adverb-q-double      ダブル
 adverb-q-exec        幹部
 #adverb-q-f           f
-adverb-q-function    関数
 adverb-q-format      フォーマット
+adverb-q-function    関数
 adverb-q-h           時
 adverb-q-hash        ハッシュ
 adverb-q-heredoc     ヒアドキュメント
@@ -97,7 +94,11 @@ constraint-where  どこで
 
 # KEY                  TRANSLATION
 core-abs               腹筋
+#core-accessed          accessed
+#core-actions           actions
+#core-add               add
 core-all               すべて
+#core-antipair          antipair
 core-antipairs         アンチペア
 core-any               任意
 core-append            追加
@@ -114,28 +115,38 @@ core-atomic-inc-fetch  アトミックインクルードフェッチ
 core-atomic-sub-fetch  アトミックサブフェッチ
 core-await             待ってください
 
-# KEY          TRANSLATION
-core-bag       袋
-core-bail-out  救済
-core-bless     祝福する
+# KEY           TRANSLATION
+#core-backtrace  backtrace
+core-bag        袋
+core-bail-out   救済
+#core-base       base
+#core-batch      batch
+core-bless      祝福する
 
 # KEY              TRANSLATION
+#core-cache         cache
 core-callframe     コールフレーム
 core-callsame      コールサム
 core-callwith      コールウィズ
 core-can-ok        カンオク
+#core-caps          caps
 core-cas           キャス
 core-categorize    分類する
 core-ceiling       天井
+#core-changed       changed
 core-chars         文字
 #core-chdir         chdir
+#core-child         child
 #core-chmod         chmod
 core-chomp         ムシャムシャ
 core-chop          チョップ
 core-chown         チャウン
 core-chr           ch
 core-chrs          時間
+#core-chunks        chunks
 core-classify      分類する
+#core-cleanup       cleanup
+#core-clone         clone
 core-close         閉じる
 #core-cmp-ok        cmp-ok
 core-codes         コード
@@ -145,29 +156,42 @@ core-conj          コンジュ
 core-contains      には含まれています
 core-cross         クロス
 
-# KEY         TRANSLATION
-core-decode   デコード
-core-deepmap  ディープマップ
-core-defined  定義済み
-core-diag     診断
-core-die      死ぬ
-core-dies-ok  死んでも大丈夫
-core-dir      ディレクトリ
-core-does-ok  大丈夫です
-core-done     完了
-core-duckmap  アヒルマップ
+# KEY                  TRANSLATION
+#core-day-of-week       day-of-week
+#core-day-of-year       day-of-year
+#core-daycount          daycount
+#core-days-in-month     days-in-month
+#core-days-in-year      days-in-year
+#core-dd-mm-yyyy        dd-mm-yyyy
+core-decode            デコード
+core-deepmap           ディープマップ
+core-defined           定義済み
+#core-dev               dev
+#core-devtype           devtype
+core-diag              診断
+core-die               死ぬ
+core-dies-ok           死んでも大丈夫
+core-dir               ディレクトリ
+#core-dir-with-entries  dir-with-entries
+core-does-ok           大丈夫です
+core-done              完了
+core-duckmap           アヒルマップ
 
 # KEY               TRANSLATION
+#core-eager          eager
+#core-earlier        earlier
 core-elems          要素
 core-emit           発する
 core-encode         エンコード
 core-end            終わり
 core-ends-with      で終わる
+#core-enums          enums
 core-eval-dies-ok   評価-ダイ-OK
 #core-eval-lives-ok  eval-lives-ok
 core-exit           出口
 core-exp            経験値
 core-expmod         エクスモード
+#core-extension      extension
 
 # KEY              TRANSLATION
 core-fail          失敗する
@@ -175,35 +199,45 @@ core-fails-like    失敗っぽい
 #core-fc            fc
 core-first         最初
 core-flat          フラット
+#core-flatmap       flatmap
 core-flip          フリップ
 core-floor         階
 core-flunk         フランク
 core-fmt           フィート
+#core-from          from
 core-full-barrier  フルバリア
 
-# KEY      TRANSLATION
-core-get   ゲット
-core-getc  ゲッチ
-core-gist  要旨
-core-grep  グレップ
+# KEY           TRANSLATION
+core-get        ゲット
+core-getc       ゲッチ
+core-gist       要旨
+#core-grab       grab
+#core-grabpairs  grabpairs
+core-grep       グレップ
+#core-group      group
 
 # KEY      TRANSLATION
 core-hash  ハッシュ
 core-head  頭
 
-# KEY           TRANSLATION
-core-indent     インデント
-core-index      インデックス
-core-indices    のインデックス
-core-indir      インディル
-#core-invert     invert
-core-is         は
-core-is-approx  はおよそ
-core-is-deeply  は深いです
-core-is-prime   プライム
-core-isa-ok     大丈夫です
-core-isnt       は違います
-core-item       品目
+# KEY             TRANSLATION
+#core-im           im
+core-indent       インデント
+core-index        インデックス
+core-indices      のインデックス
+core-indir        インディル
+#core-inode        inode
+#core-invert       invert
+#core-IO           IO
+core-is           は
+#core-is-absolute  is-absolute
+core-is-approx    はおよそ
+core-is-deeply    は深いです
+core-is-prime     プライム
+#core-is-relative  is-relative
+core-isa-ok       大丈夫です
+core-isnt         は違います
+core-item         品目
 
 # KEY      TRANSLATION
 core-join  参加する
@@ -216,6 +250,7 @@ core-kv    kv
 # KEY          TRANSLATION
 core-last      最後
 core-lastcall  ラストコール
+#core-later     later
 #core-lc        lc
 core-like      いいね
 core-lines     行
@@ -224,17 +259,20 @@ core-list      リスト
 core-lives-ok  命は大丈夫
 core-lsb       ポンド
 
-# KEY        TRANSLATION
-core-make    メイク
-core-map     マップ
-core-match   試合
-core-max     最大
-core-min     分
-core-minmax  最小最大
-core-mix     ミックス
-#core-mkdir   mkdir
-core-move    移動
-#core-msb     msb
+# KEY            TRANSLATION
+#core-made        made
+core-make        メイク
+core-map         マップ
+core-match       試合
+core-max         最大
+#core-message     message
+core-min         分
+core-minmax      最小最大
+core-mix         ミックス
+#core-mkdir       mkdir
+#core-mm-dd-yyyy  mm-dd-yyyy
+core-move        移動
+#core-msb         msb
 
 # KEY            TRANSLATION
 core-new         新規
@@ -253,30 +291,45 @@ core-ok    分かった
 core-open  オープン
 core-ord   オード
 core-ords  オーズ
+#core-orig  orig
 
 # KEY              TRANSLATION
 core-pair          ペア
 core-pairs         足
+#core-parent        parent
+#core-parse         parse
 core-parse-base    解析ベース
 core-pass          パス
+#core-path          path
 core-permutations  の順列
 core-pick          ピック
 core-plan          プラン
 core-pop           ポップ
+#core-pos           pos
+#core-postmatch     postmatch
+#core-pred          pred
+#core-prematch      prematch
 core-prepend       先頭に追加する
 core-print         プリント
 core-printf        プリントフ
 core-proceed       続行
+#core-produce       produce
 core-prompt        プロンプト
 core-push          プッシュ
 core-put           プット
 
 # KEY            TRANSLATION
+#core-raku        raku
 core-rand        ランド
+#core-re          re
 core-redo        やり直し
 core-reduce      減らす
+#core-relative    relative
 core-repeated    繰り返し
 core-repl        レプル
+#core-resolve     resolve
+#core-resume      resume
+#core-rethrow     rethrow
 core-return      リターン
 core-return-rw   リターン-RW
 core-reverse     リバース
@@ -285,6 +338,7 @@ core-rindex      インデックス
 core-roll        ロール
 core-roots       ルーツ
 core-rotate      回転
+#core-rotor       rotor
 core-round       ラウンド
 core-roundrobin  ラウンドロビン
 core-run         ラン
@@ -299,6 +353,7 @@ core-shell        シェル
 core-shift        シフト
 core-sign         サイン
 core-signal       信号
+#core-sink         sink
 core-skip         スキップ
 core-skip-rest    スキップレスト
 core-sleep        睡眠
@@ -320,11 +375,13 @@ core-srand        ランド
 core-starts-with  で始まる
 core-subbuf       サブバフ
 core-subbuf-rw    サブバッファー-RW
+#core-subparse     subparse
 core-subst        サブ
 core-substr       部分文字列
 core-substr-eq    サブストラクチャー
 core-substr-rw    サブストラクチャ-RW
 core-subtest      サブテスト
+#core-succ         succ
 core-succeed      成功する
 core-sum          和
 core-symlink      シンボリックリンク
@@ -333,10 +390,14 @@ core-symlink      シンボリックリンク
 core-tail           尻尾
 core-take           テイク
 core-take-rw        テイクアール
+#core-target         target
 #core-tc             tc
 #core-tclc           tclc
 #core-temp           temp
+#core-throw          throw
 core-throws-like    投げっぽい
+#core-to             to
+#core-today          today
 core-todo           やること
 core-trans          トランス
 core-trim           トリム
@@ -360,16 +421,25 @@ core-unlink    リンクを解除する
 core-unpolar   無極性
 core-unshift   シフト解除
 core-use-ok    度使用OK
+#core-user      user
 
 # KEY        TRANSLATION
 core-val     ヴァル
 core-value   値
 core-values  の値
 
-# KEY          TRANSLATION
-core-warn      警告
-core-wordcase  ワードケース
-core-words     単語
+# KEY                  TRANSLATION
+core-warn              警告
+#core-watch             watch
+#core-week              week
+#core-week-number       week-number
+#core-week-year         week-year
+#core-weekday-of-month  weekday-of-month
+core-wordcase          ワードケース
+core-words             単語
+
+# KEY            TRANSLATION
+#core-yyyy-mm-dd  yyyy-mm-dd
 
 # KEY     TRANSLATION
 core-zip  ジップ
@@ -392,7 +462,6 @@ enum-Same               同様
 #enum-SeekFromEnd        SeekFromEnd
 enum-True               正
 
-
 # KEY             TRANSLATION
 infix-(cont)      (続き)
 infix-(elem)      （エレメント）
@@ -410,6 +479,7 @@ infix-coll        コル
 infix-div         ディビジョン
 infix-does        はする
 infix-eq          当量
+#infix-eqv         eqv
 infix-ff          以降
 infix-ff^         ふふ^
 infix-fff         ふふふ
@@ -433,6 +503,7 @@ infix-orelse      オレセ
 infix-unicmp      ユニカンプ
 infix-x           ×
 #infix-X           X
+#infix-xor         xor
 #infix-xx          xx
 #infix-Z           Z
 
@@ -474,6 +545,7 @@ named-batch      バッチ
 named-bin        ビン
 named-bleed      ブリード
 named-broadcast  放送
+#named-by         by
 
 # KEY             TRANSLATION
 named-catch       キャッチ
@@ -487,16 +559,18 @@ named-continue    続ける
 named-control     コントロール
 named-count       カウント
 named-create      作成する
+#named-created     created
 named-createonly  作成のみ
 #named-cwd         cwd
 #named-CWD         CWD
 
-# KEY          TRANSLATION
-named-date     日付
-named-day      日
-named-degree   度
-named-delete   削除
-named-dirname  姓名
+# KEY           TRANSLATION
+#named-datagram  datagram
+named-date      日付
+named-day       日
+named-degree    度
+named-delete    削除
+named-dirname   姓名
 
 # KEY             TRANSLATION
 named-elems       要素
@@ -547,13 +621,14 @@ named-listen     聞いてください
 named-localhost  ローカルホスト
 named-localport  ローカルポート
 
-# KEY         TRANSLATION
-named-match   試合
-named-merge   マージ
-named-minute  分
-#named-mm      mm
-named-mode    モード
-named-month   月
+# KEY           TRANSLATION
+named-match     試合
+named-merge     マージ
+named-minute    分
+#named-mm        mm
+named-mode      モード
+#named-modified  modified
+named-month     月
 
 # KEY               TRANSLATION
 named-name          名前
@@ -770,6 +845,7 @@ trait-is-looser                 ゆるい
 trait-is-nodal                  ノード
 trait-is-pure                   ピュア
 trait-is-raw                    生
+#trait-is-required               required
 #trait-is-rw                     rw
 trait-is-test-assertion         テストアサーション
 trait-is-tighter                きつめ

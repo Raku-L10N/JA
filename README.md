@@ -12,6 +12,8 @@ SYNOPSIS
     こんにちは世界
 
 ```raku
+# Must have RAKUDO_RAKUAST=1 environment variable set
+# when running a Rakudo older than the 2026.09 release
 use L10N::JA;
 言う "こんにちは世界";
 ```
@@ -34,7 +36,7 @@ Richard Hainsworth <rnhainsworth@gmail.com>
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2024, 2025 Raku Localization Team
+Copyright 2024, 2025, 2026 Raku Localization Team
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

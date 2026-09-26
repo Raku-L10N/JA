@@ -10,14 +10,19 @@
   "description": "Japanese localization of Raku",
   "license": "Artistic-2.0",
   "name": "L10N::JA",
-  "perl": "6.d",
   "provides": {
     "L10N::JA": "lib/L10N/JA.rakumod",
     "RakuAST::Deparse::L10N::JA": "lib/RakuAST/Deparse/L10N/JA.rakumod"
   },
+  "raku": "6.d",
   "resources": [
   ],
   "source-url": "https://github.com/Raku-L10N/JA.git",
+  "support": {
+    "bugtracker": "https://github.com/Raku-L10N/JA/issues",
+    "email": "l10n@raku,org",
+    "source": "https://github.com/Raku-L10N/JA.git"
+  },
   "tags": [
     "LOCALIZATION",
     "JAPANESE",

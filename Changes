@@ -1,7 +1,10 @@
 Revision history for L10N::JA
 
 {{$NEXT}}
+    - Update translation keys
     - Fix documentation of the ryuu executable, Will Coleda++
+    - Modernize META
+    - Update copyright year
 
 0.0.3  2025-06-27T18:39:24+02:00
     - Updated internals to new L10N file layout

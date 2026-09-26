@@ -1,7 +1,7 @@
 # This file contains the Japanese Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-27T18:38:58+02:00 by update-localization.raku
+#- Generated on 2026-09-26T11:43:28+02:00 by update-localization.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::JA {
@@ -55,6 +55,7 @@ role L10N::JA {
     token infix-div { ディビジョン}
     token infix-does { はする}
     token infix-eq { 当量}
+    token infix-eqv { eqv}
     token infix-ff { 以降}
     token infix-ffc { "ふふ^"}
     token infix-fff { ふふふ}
@@ -78,6 +79,7 @@ role L10N::JA {
     token infix-unicmp { ユニカンプ}
     token infix-x { "×"}
     token infix-X { X}
+    token infix-xor { xor}
     token infix-xx { xx}
     token infix-Z { Z}
     token meta-R { R}
